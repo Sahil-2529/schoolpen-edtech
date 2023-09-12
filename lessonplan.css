@@ -1,0 +1,424 @@
+.lesson-wrapper {
+    display: flex;
+  }
+  
+  
+
+.lessonTable{
+    background: white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content:center;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vh;
+    margin-top: 10vh;
+    width: 130vh;
+    
+}
+.lessonRow1{
+    display: flex;
+    width: 100%;
+    margin-top: 2vh;
+    gap:10vh
+}
+.r1c{
+    border: 1px solid black;
+    padding: 10px 7vh;
+    border-radius: 10vh;
+
+}
+.lessonRow2{
+    width: 100%;
+    border: 2px solid #4f78fe;
+    border-radius: 23px;
+    margin-top: 12px;
+    position: relative;
+}
+.services {
+    display: inline-flex;
+    padding-right: 2px;
+}
+.second-div{
+    float: left;
+    /* background-color: white; */
+    margin-left: 0px;
+    border-radius: 20px;
+  
+}
+.days{
+    border-radius: 15px;
+    padding:8px 8px;
+    outline: none;
+    border: none;
+    margin-right: 4px;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    padding-right: 12px;
+    color:#4f78fe;
+    font-weight: bold;
+}
+.days.active{
+    background-color:#4f78fe;
+    color: white;
+}
+.first-div{
+    position: absolute;
+    bottom: 5px;
+    right: 25px;
+  font-size: 15px;
+  background-color: white;
+}
+.add-btn{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    color: #4f78fe;
+    padding-top: 2px;
+}
+.lessonRow3{
+    display: flex;
+    padding-top: 2px;
+}
+.r3c{
+    margin-top: 10px;
+    padding-right: 10vh;
+    color: lightgrey;
+    font-weight: 500;
+}
+.txtDetail{
+    width: 100vh;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    border-radius: 0px;
+    padding: 9px;
+}
+.txtDetail:focus{
+    outline: none;
+    border: none; 
+    box-shadow: none;
+    border-bottom: 2px solid lightgrey;
+}
+
+.r3c input{
+     border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    border-radius: 0px;
+    border-color: lightgrey;
+    font-weight: 600;
+    color:#c0c0c0;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+.mb-3{
+    width: 45vh;
+}
+.custom-textarea {
+    width: 100vh; /* Adjust the width as needed */
+    resize: vertical; /* Allow vertical resizing */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 15px;
+    color: grey;
+    font-weight: 500;
+    outline: none;
+    margin-left: 10vh;
+    position: relative;
+    /* Add any other styles you want to apply to the textarea */
+  }
+
+.lessonRow4{
+    margin-left: -10vh;
+    margin-top: 2vh;
+}
+
+.lessonRow5{
+    display: flex;
+    padding-top: 2px;
+}
+
+.mb-4{
+    width: 30vh;
+}
+.r5c{
+    margin-top: 10px;
+    padding-right: 8vh;
+    color: lightgrey;
+    font-weight: 500;
+}
+.r5c textarea{
+    width: 28vh;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    border-radius: 0px;
+    padding: 9px;
+}
+.r5c textarea:focus{
+    outline: none;
+    border: none; 
+    box-shadow: none;
+    border-bottom: 2px solid lightgrey;
+}
+.content_btn{
+    position: absolute;
+    bottom: 44vh;
+    right: 45vh;
+    font-size: 25px;
+    padding: 0px;
+    height: 40px; /* Set the desired height of the button */
+  width: 40px; /* Set the same value as height to make it fully round */
+  border-radius: 50%;
+  font-weight: 600;
+  background-color: white;
+  color:#4f78fe;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.box2{
+    border: 2px solid lightgray;
+    margin-top: 40px;
+    width: 120vh;
+    padding-left: 10vh;
+    border-radius: 25px;
+    padding-top: 20px;
+}
+  
+.b2row1{
+    display: flex;
+    padding-top: 2px;
+    padding-left: 2px;
+    
+}
+.row1c{
+    padding-right: 15px;
+    width: 30%;
+}
+.mb-2{
+    width: 30vh;
+    border-radius: 25px;
+}
+
+.b2row2
+{
+        width: 90%;
+        border: 2px solid #4f78fe;
+        border-radius: 23px;
+        margin-top: 12px;
+        position: relative;
+        margin-bottom: 10px;
+        
+}
+.b2row2 .first-div{
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+  font-size: 15px;
+  background-color: white;
+  
+}
+
+.b2row3{
+    display: flex;
+}
+
+.row3c{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    color:  lightgrey;
+}
+
+.custom-dropdown:focus {
+    border: 1px solid #ced4da; /* Add a border to show focus */
+    box-shadow: 0 0 0 0px grey; /* Add a shadow to show focus */
+  }
+ .custom-dropdown option{
+    border-radius: 40px;
+  }
+  .row3c Select{
+    border-radius: 90px;
+    padding-left: 14px;
+    color:  grey;
+    font-weight: 600;
+  }
+.row3c .form{
+    border-radius: 20px;
+    padding-left: 14px;
+    color:  grey;
+    font-weight: 500;
+    
+}
+.b2row4{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.writetxt{
+    width: 100vh;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    border-radius: 0px;
+}
+.writetxt:focus{
+    outline: none;
+    border: none; /* Add a border to show focus */
+    box-shadow: none;
+    border-bottom: 2px solid lightgrey;
+}
+.b2row5{
+    margin-bottom: 10px;
+}
+.filluptxt{
+    width: 30vh;
+    border: none;
+    border-bottom: 2px solid grey;
+    border-radius: 0px;
+}
+.filluptxt:focus{
+    outline: none;
+    border: none; /* Add a border to show focus */
+    box-shadow: none;
+    border-bottom: 2px solid grey;
+}
+.b2row5 .textarea{
+    width: 100vh; /* Adjust the width as needed */
+    resize: vertical; /* Allow vertical resizing */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 15px;
+    color:lightgray;
+    font-weight: 600;
+    outline: none;
+}
+.b2row6{
+    border: 1px solid #ccc;
+    margin-right: 70px;
+    padding-left: 20px;
+    padding-top: 30px;
+    display: flex;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    color: darkgray;
+    font-weight: 600;
+}
+.mb-3 input[type="radio"] + .custom-radio-label {
+    display: inline-block;
+    vertical-align: middle; /* Align the labels vertically with the radio buttons */
+    margin-right: 15px; /* Add some spacing between the radio buttons */
+    margin-top: 2px;
+    color: grey;
+    font-weight: 600;
+  }
+  
+.row6right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    color: grey;
+    font-weight: 600;
+}
+.row6rightcol label{
+    padding-left: 40px;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+    width: 40vh;
+}
+.row6rightcol input[type="radio"]{
+    padding-top: 35px;
+    padding-right: 10vh;
+}
+
+.b2row7{
+    border: 1px solid #ccc;
+    margin-right: 65px;
+    padding-left: 20px;
+    padding-top: 30px;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color:  grey;
+    font-weight: 600;
+}
+.row7right{
+    display:  flex;
+    margin-left: 30px;
+    
+}
+.row7rightcol{
+    margin-right: 15vh;
+}
+  
+.b2row8{
+    border: 1px solid #ccc;
+    margin-right: 65px;
+    padding-left: 20px;
+    padding-top: 30px;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color:grey;
+    font-weight: 600;
+}
+.row8right{
+   margin-left: 3vh;
+}
+ h5{
+    color:grey;
+    font-weight: 600;
+}
+.customInput{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 50vh;
+
+}
+.customInput:focus{
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.b2row9{
+    display: flex;
+    padding-left: 30vh;
+    margin-top: 5vh;
+    margin-right: 10vh;
+    margin-bottom: 20px;
+}
+.row9c{
+    margin-right: 10vh;
+    
+}
+.next-button{
+    padding: 5px 50px;
+    border-radius: 20px;
+    background-color: white;
+    color: #4f78fe;;
+    border:2px solid  blue;
+}
+.finishbutton{
+    padding: 5px 50px;
+    border-radius: 20px;
+    color: white;
+    background-color: #4f78fe;;
+    border: 1px solid #4f78fe;;
+}
+
+.row10{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.complete{
+    padding: 5px 50px;
+    border-radius: 20px;
+    color: white;
+    background-color: #4f78fe;
+    border: 1px solid #4f78fe;;
+}
